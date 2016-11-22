@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-	<head>
-	<script src="https://d3js.org/d3.v4.min.js"></script>
-	</head>
-	<body>
-	<script>
+function test()
+{
+
 		circleRadii = [40, 20, 10];
 		function hiD3(hi) {
 			var svgContainer = d3.select("body").append("svg")
@@ -41,6 +37,4 @@
 		}
 		lineTest(lineData);
 		//d3.json(,lineTest);
-	</script>
-	</body>
- </html>
+	}
